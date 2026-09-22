@@ -1,0 +1,6 @@
+{
+  "name": "FreshLink AI",
+  "description": "Smart fresh produce decision support and visual freshness estimation system for consumers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
