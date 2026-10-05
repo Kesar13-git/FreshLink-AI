@@ -173,7 +173,7 @@ The estimated quality window is intended as a decision-support estimate rather t
                                   │
                               AWS Hosting
 
-🛠️ Technology Stack
+## 🛠️ Technology Stack
 Mobile Application
 - Kotlin
 - Android
@@ -197,7 +197,8 @@ Cloud / Deployment
 Version Control
 - Git
 - GitHub
-🔌 Backend Integration
+
+## 🔌 Backend Integration
 The Android application has been structured so that the analysis system can switch between mock data and the actual FastAPI backend.
 Architecture
 Android UI
@@ -232,7 +233,7 @@ The expected response contains:
   ]
 }
 
-📊 Retail Decision Support
+## 📊 Retail Decision Support
 The Retailer Mode is designed to provide recommendations rather than automatically making business decisions.
 Potential outputs include:
 - Waste-risk level
@@ -242,7 +243,8 @@ Potential outputs include:
 - Replenishment recommendation
 - Inventory alerts
 Pricing recommendations are intended to support retailer decision-making and do not automatically change product prices.
-📂 Project Structure
+
+## 📂 Project Structure
 FreshLink-AI/
 │
 ├── app/
@@ -267,7 +269,7 @@ FreshLink-AI/
 ├── build.gradle.kts
 └── settings.gradle.kts
 
-🚀 Running the Application
+## 🚀 Running the Application
 Prerequisites
 - Android Studio
 - Android SDK
@@ -284,7 +286,8 @@ git clone https://github.com/Kesar13-git/FreshLink-AI.git
 Current Prototype
 The current prototype uses mock data for produce analysis and Retailer Mode.
 Backend and AI model integration will replace these mock components during the integration stage.
-🔄 Development Roadmap
+
+## 🔄 Development Roadmap
 Phase 1 — Application Prototype
 - Consumer Android application
 - Produce scanning interface
@@ -318,7 +321,8 @@ Phase 5 — Final Integration
 - Dynamic pricing recommendations
 - Replenishment recommendations
 - Performance and accuracy evaluation
-👩‍💻 Team
+
+## 👩‍💻 Team
 Member	Responsibility
 Kesar Deaulkar	Consumer Android App & Final Integration
 Manasvi Ambavale	AI / Computer Vision, Dataset & Model Evaluation
@@ -326,7 +330,7 @@ Raina Mitra	Retailer Mode
 Shreya Gharat	Backend, AWS & Supabase
 
 
-🎯 Project Goal
+## 🎯 Project Goal
 FreshLink AI aims to bridge the gap between freshness assessment, consumer decision-making and retail intelligence.
 The long-term goal is to create a unified platform that helps:
 Consumers
@@ -337,7 +341,7 @@ Food-Waste Reduction
 → identify produce that requires timely action
 FreshLink AI doesn't just tell you whether produce looks fresh; it helps you decide what to buy and helps retailers decide what to sell first.
 
-📌 Project Status
+## 📌 Project Status
 Current Status: Prototype + Retailer Mode Integration
 ✅ Consumer Android application
 ✅ Consumer scanning workflow
@@ -358,9 +362,11 @@ Current Status: Prototype + Retailer Mode Integration
 🔄 FastAPI backend integration — In progress
 🔄 Supabase integration — In progress
 🔄 AWS deployment — Planned
-🔄 End-to-end integration — Planned  
-📄 Disclaimer
+🔄 End-to-end integration — Planned
+
+## 📄 Disclaimer
 FreshLink AI is an academic/project prototype intended for decision support and demonstration purposes.
 Visual freshness assessment cannot determine complete food safety, internal quality, pathogen contamination or chemical contamination. Results should not be treated as a guarantee of food safety.
-📜 License
+
+## 📜 License
 This project is developed as an academic project.
