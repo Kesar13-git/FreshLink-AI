@@ -18,3 +18,9 @@ local.properties
 debug.keystore
 
 .idea/
+
+# Python AI model
+__pycache__/
+*.py[cod]
+.venv/
+dataset_split/
