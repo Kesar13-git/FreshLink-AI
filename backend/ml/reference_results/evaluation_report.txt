@@ -1,0 +1,20 @@
+FRESHLINK AI - MODEL EVALUATION
+============================================================
+Test Accuracy: 84.02%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       Fresh     0.8610    0.8441    0.8525       712
+    Moderate     0.7997    0.7704    0.7848       710
+        Poor     0.8577    0.9059    0.8811       712
+
+    accuracy                         0.8402      2134
+   macro avg     0.8395    0.8401    0.8395      2134
+weighted avg     0.8395    0.8402    0.8395      2134
+
+
+Confusion Matrix:
+[[601  89  22]
+ [ 78 547  85]
+ [ 19  48 645]]
