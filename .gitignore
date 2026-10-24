@@ -1,3 +1,4 @@
+
 *.iml
 .gradle
 .kotlin
@@ -10,17 +11,24 @@
 /.idea/assetWizardSettings.xml
 .DS_Store
 /build
+**/build/
 /captures
 .externalNativeBuild
 .cxx
 local.properties
 .env
 debug.keystore
-
 .idea/
 
-# Python AI model
+# Python backend and AI model
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.ruff_cache/
 .venv/
+venv/
+*.egg-info/
 dataset_split/
+
+# Generated or processed data
+/Processed Data/
